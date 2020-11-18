@@ -1,0 +1,115 @@
+
+
+.header-wrapper{
+    position: relative;
+    padding-bottom: .32rem;
+    .header-title{
+        position: absolute;
+        top: .2rem;
+        left: .32rem;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: .28rem;
+        img{
+            width: 1.4rem;
+            height: .32rem;
+        }
+        .line{
+            width: 0.02rem;
+            height: .9em;
+            background: #666;
+            margin: .05rem .1rem 0;
+        }
+    }
+    .header-mobile{
+        position: absolute;
+        top: 2.18rem;
+        right: .32rem;
+        height: 1.22rem;
+        overflow: hidden;
+        &__item{
+            margin-bottom: .1rem;
+            padding: 0 .1rem;
+            line-height: .5rem;
+            border-radius: .25rem .25rem .25rem 0;
+            background: #FE8640;
+            opacity: .6;
+            list-style: none;
+            font-size: .2rem;
+            transform: scale(.8);
+            transform-origin: right;
+            color: white;
+            transition: all .5s;
+            &--active{
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    }
+    .header-banner{
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+    .header-card{
+        position: relative;
+        z-index: 1;
+        border-radius: .16rem;
+        background: white;
+        color: #333;
+        padding: .6rem .4rem;
+        text-align: center;
+        margin: -1.37rem .32rem 0;
+        box-shadow:0px .08rem .16rem 0px rgba(184,198,204,0.3);
+        &__title{
+            font-size: .6rem;
+            font-weight: 600;
+        }
+        &__desc{
+            font-size: .32rem;
+            line-height: .44rem;
+            margin-top: .15rem;
+        }
+        &__money{
+            margin-top: .45rem;
+            font-size: .32rem;
+            font-weight: 600;
+            .light{
+                color: #F60C3F;
+                font-size: .52rem;
+            }
+        }
+        &__btn{
+            width: 5.12rem;
+            line-height: 1.12rem;
+            border-radius: 0.56rem;
+            box-shadow:0px .08rem .16rem 0px rgba(246,98,131,0.3),0px .06rem .2rem 0px rgba(255,255,255,0.5);
+            text-align: center;
+            color: white;
+            font-size: .4rem;
+            background: #F60C3F;
+            margin: .3rem auto 0;
+        }
+        &__list{
+            display: flex;
+            align-items: center;
+            padding: .6rem .2rem 0;
+            &__item{
+                display: flex;
+                flex: 1;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: #666;
+                img{
+                    width: .4rem;
+                    height: .4rem;
+                    margin-right: .05rem;
+                }
+            }
+        }
+    }
+    
+}

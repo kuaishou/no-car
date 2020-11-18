@@ -1,0 +1,925 @@
+[{
+        "name": "Albania",
+        "zhName": "阿尔巴尼亚",
+        "abbreviation": "AL"
+    },
+    {
+        "name": "Algeria",
+        "zhName": "阿尔及利亚",
+        "abbreviation": "DZ"
+    },
+    {
+        "name": "Andorra",
+        "zhName": "安道尔",
+        "abbreviation": "AD"
+    },
+    {
+        "name": "Angola",
+        "zhName": "安哥拉",
+        "abbreviation": "AO"
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "zhName": "安提瓜和巴布达",
+        "abbreviation": "AG"
+    },
+    {
+        "name": "Argentina",
+        "zhName": "阿根廷",
+        "abbreviation": "AR"
+    },
+    {
+        "name": "Armenia",
+        "zhName": "亚美尼亚",
+        "abbreviation": "AM"
+    },
+    {
+        "name": "Aruba",
+        "zhName": "阿鲁巴岛",
+        "abbreviation": "AW"
+    },
+    {
+        "name": "Australia",
+        "zhName": "澳大利亚",
+        "abbreviation": "AU",
+        "isHot": true
+    },
+    {
+        "name": "Austria",
+        "zhName": "奥地利",
+        "abbreviation": "AT",
+        "isHot": true
+    },
+    {
+        "name": "Azerbaijan",
+        "zhName": "阿塞拜疆",
+        "abbreviation": "AZ"
+    },
+    {
+        "name": "Bahamas (the)",
+        "zhName": "巴哈马",
+        "abbreviation": "BS"
+    },
+    {
+        "name": "Bahrain",
+        "zhName": "巴林",
+        "abbreviation": "BH"
+    },
+    {
+        "name": "Bangladesh",
+        "zhName": "孟加拉国",
+        "abbreviation": "BD"
+    },
+    {
+        "name": "Barbados",
+        "zhName": "巴巴多斯",
+        "abbreviation": "BB"
+    },
+    {
+        "name": "Belgium",
+        "zhName": "比利时",
+        "abbreviation": "BE",
+        "isHot": true
+    },
+    {
+        "name": "Belize",
+        "zhName": "伯利兹",
+        "abbreviation": "BZ"
+    },
+    {
+        "name": "Benin",
+        "zhName": "贝宁",
+        "abbreviation": "BJ"
+    },
+    {
+        "name": "Bermuda",
+        "zhName": "百慕大",
+        "abbreviation": "BM"
+    },
+    {
+        "name": "Bhutan",
+        "zhName": "不丹",
+        "abbreviation": "BT"
+    },
+    {
+        "name": "Bolivia (Plurinational State of)",
+        "zhName": "玻利维亚",
+        "abbreviation": "BO"
+    },
+    {
+        "name": "Botswana",
+        "zhName": "博茨瓦纳",
+        "abbreviation": "BW"
+    },
+    {
+        "name": "Brazil",
+        "zhName": "巴西",
+        "abbreviation": "BR"
+    },
+    {
+        "name": "Brunei Darussalam",
+        "zhName": "文莱",
+        "abbreviation": "BN"
+    },
+    {
+        "name": "Bulgaria",
+        "zhName": "保加利亚",
+        "abbreviation": "BG"
+    },
+    {
+        "name": "Burkina Faso",
+        "zhName": "布基纳法索",
+        "abbreviation": "BF"
+    },
+    {
+        "name": "Cabo Verde",
+        "zhName": "佛得角",
+        "abbreviation": "CV"
+    },
+    {
+        "name": "Cambodia",
+        "zhName": "柬埔寨",
+        "abbreviation": "KH"
+    },
+    {
+        "name": "Cameroon",
+        "zhName": "喀麦隆 ",
+        "abbreviation": "CM"
+    },
+    {
+        "name": "Canada",
+        "zhName": "加拿大",
+        "abbreviation": "CA"
+    },
+    {
+        "name": "Cayman Islands (the)",
+        "zhName": "开曼群岛",
+        "abbreviation": "KY"
+    },
+    {
+        "name": "Chad",
+        "zhName": "乍得",
+        "abbreviation": "TD"
+    },
+    {
+        "name": "Chile",
+        "zhName": "智利",
+        "abbreviation": "CL"
+    },
+    {
+        "name": "Colombia",
+        "zhName": "哥伦比亚",
+        "abbreviation": "CO"
+    },
+    {
+        "name": "Comoros (the)",
+        "zhName": "科摩罗",
+        "abbreviation": "KM"
+    },
+    {
+        "name": "Cook Islands (the)",
+        "zhName": "库克群岛",
+        "abbreviation": "CK"
+    },
+    {
+        "name": "Costa Rica",
+        "zhName": "哥斯达黎加",
+        "abbreviation": "CR"
+    },
+    {
+        "name": "Croatia",
+        "zhName": "克罗地亚",
+        "abbreviation": "HR"
+    },
+    {
+        "name": "Curaçao",
+        "zhName": "库拉索岛",
+        "abbreviation": "CW"
+    },
+    {
+        "name": "Cyprus",
+        "zhName": "塞浦路斯",
+        "abbreviation": "CY"
+    },
+    {
+        "name": "Czechia",
+        "zhName": "捷克",
+        "abbreviation": "CZ"
+    },
+    {
+        "name": "Denmark",
+        "zhName": "丹麦",
+        "abbreviation": "DK"
+    },
+    {
+        "name": "Djibouti",
+        "zhName": "吉布提",
+        "abbreviation": "DJ"
+    },
+    {
+        "name": "Dominica",
+        "zhName": "多米尼克",
+        "abbreviation": "DM"
+    },
+    {
+        "name": "Dominican Republic (the)",
+        "zhName": "多米尼加",
+        "abbreviation": "DO"
+    },
+    {
+        "name": "Ecuador",
+        "zhName": "厄瓜多尔",
+        "abbreviation": "EC"
+    },
+    {
+        "name": "El Salvador",
+        "zhName": "萨尔瓦多",
+        "abbreviation": "SV"
+    },
+    {
+        "name": "Equatorial Guinea",
+        "zhName": "赤道几内亚",
+        "abbreviation": "GQ"
+    },
+    {
+        "name": "Estonia",
+        "zhName": "爱沙尼亚",
+        "abbreviation": "EE"
+    },
+    {
+        "name": "Ethiopia",
+        "zhName": "埃塞俄比亚",
+        "abbreviation": "ET"
+    },
+    {
+        "name": "Fiji",
+        "zhName": "斐济",
+        "abbreviation": "FJ"
+    },
+    {
+        "name": "Finland",
+        "zhName": "芬兰",
+        "abbreviation": "FI"
+    },
+    {
+        "name": "France",
+        "zhName": "法国",
+        "abbreviation": "FR",
+        "isHot": true
+    },
+    {
+        "name": "French Guiana",
+        "zhName": "法属圭亚那",
+        "abbreviation": "GF"
+    },
+    {
+        "name": "French Polynesia",
+        "zhName": "法属波利尼西亚",
+        "abbreviation": "PF"
+    },
+    {
+        "name": "Gabon",
+        "zhName": "加蓬",
+        "abbreviation": "GA"
+    },
+    {
+        "name": "Gambia (the)",
+        "zhName": "冈比亚",
+        "abbreviation": "GM"
+    },
+    {
+        "name": "Georgia",
+        "zhName": "格鲁吉亚",
+        "abbreviation": "GE"
+    },
+    {
+        "name": "Germany",
+        "zhName": "德国",
+        "abbreviation": "DE",
+        "isHot": true
+    },
+    {
+        "name": "Ghana",
+        "zhName": "加纳",
+        "abbreviation": "GH"
+    },
+    {
+        "name": "Gibraltar",
+        "zhName": "直布罗陀",
+        "abbreviation": "GI"
+    },
+    {
+        "name": "Greece",
+        "zhName": "希腊",
+        "abbreviation": "GR",
+        "isHot": true
+    },
+    {
+        "name": "Greenland",
+        "zhName": "格陵兰",
+        "abbreviation": "GL"
+    },
+    {
+        "name": "Grenada",
+        "zhName": "格林纳达",
+        "abbreviation": "GD"
+    },
+    {
+        "name": "Guadeloupe",
+        "zhName": "瓜德罗普",
+        "abbreviation": "GP"
+    },
+    {
+        "name": "Guatemala",
+        "zhName": "危地马拉",
+        "abbreviation": "GT"
+    },
+    {
+        "name": "Guyana",
+        "zhName": "圭亚那",
+        "abbreviation": "GY"
+    },
+    {
+        "name": "Holy See (the)",
+        "zhName": "梵蒂冈",
+        "abbreviation": "VA"
+    },
+    {
+        "name": "Honduras",
+        "zhName": "洪都拉斯",
+        "abbreviation": "HN"
+    },
+    {
+        "name": "Hong Kong",
+        "zhName": "中国香港",
+        "abbreviation": "HK",
+        "isHot": true
+    },
+    {
+        "name": "Hungary",
+        "zhName": "匈牙利",
+        "abbreviation": "HU"
+    },
+    {
+        "name": "Iceland",
+        "zhName": "冰岛",
+        "abbreviation": "IS"
+    },
+    {
+        "name": "India",
+        "zhName": "印度",
+        "abbreviation": "IN"
+    },
+    {
+        "name": "Indonesia",
+        "zhName": "印度尼西亚",
+        "abbreviation": "ID"
+    },
+    {
+        "name": "Ireland",
+        "zhName": "爱尔兰",
+        "abbreviation": "IE"
+    },
+    {
+        "name": "Italy",
+        "zhName": "意大利",
+        "abbreviation": "IT",
+        "isHot": true
+    },
+    {
+        "name": "Jamaica",
+        "zhName": "牙买加",
+        "abbreviation": "JM"
+    },
+    {
+        "name": "Japan",
+        "zhName": "日本",
+        "abbreviation": "JP",
+        "isHot": true
+    },
+    {
+        "name": "Jordan",
+        "zhName": "约旦",
+        "abbreviation": "JO"
+    },
+    {
+        "name": "Kazakhstan",
+        "zhName": "哈萨克斯坦",
+        "abbreviation": "KZ"
+    },
+    {
+        "name": "Kenya",
+        "zhName": "肯尼亚",
+        "abbreviation": "KE"
+    },
+    {
+        "name": "Kiribati",
+        "zhName": "基里巴斯",
+        "abbreviation": "KI"
+    },
+    {
+        "name": "Korea (the Republic of)",
+        "zhName": "韩国",
+        "abbreviation": "KR",
+        "isHot": true
+    },
+    {
+        "name": "Kuwait",
+        "zhName": "科威特",
+        "abbreviation": "KW"
+    },
+    {
+        "name": "Kyrgyzstan",
+        "zhName": "吉尔吉斯斯坦",
+        "abbreviation": "KG"
+    },
+    {
+        "name": "Lao People's Democratic Republic (the)",
+        "zhName": "老挝",
+        "abbreviation": "LA"
+    },
+    {
+        "name": "Latvia",
+        "zhName": "拉脱维亚",
+        "abbreviation": "LV"
+    },
+    {
+        "name": "Lesotho",
+        "zhName": "莱索托",
+        "abbreviation": "LS"
+    },
+    {
+        "name": "Liechtenstein",
+        "zhName": "列支敦士登",
+        "abbreviation": "LI"
+    },
+    {
+        "name": "Lithuania",
+        "zhName": "立陶宛",
+        "abbreviation": "LT"
+    },
+    {
+        "name": "Luxembourg",
+        "zhName": "卢森堡",
+        "abbreviation": "LU"
+    },
+    {
+        "name": "Macao",
+        "zhName": "中国澳门",
+        "abbreviation": "MO"
+    },
+    {
+        "name": "Madagascar",
+        "zhName": "马达加斯加",
+        "abbreviation": "MG"
+    },
+    {
+        "name": "Malawi",
+        "zhName": "马拉维",
+        "abbreviation": "MW"
+    },
+    {
+        "name": "Malaysia",
+        "zhName": "马来西亚",
+        "abbreviation": "MY",
+        "isHot": true
+    },
+    {
+        "name": "Maldives",
+        "zhName": "马尔代夫",
+        "abbreviation": "MV"
+    },
+    {
+        "name": "Malta",
+        "zhName": "马耳他",
+        "abbreviation": "MT"
+    },
+    {
+        "name": "Marshall Islands (the)",
+        "zhName": "马绍尔群岛",
+        "abbreviation": "MH"
+    },
+    {
+        "name": "Martinique",
+        "zhName": "马提尼克",
+        "abbreviation": "MQ"
+    },
+    {
+        "name": "Mauritania",
+        "zhName": "毛利塔尼亚 ",
+        "abbreviation": "MR"
+    },
+    {
+        "name": "Mauritius",
+        "zhName": "毛里求斯",
+        "abbreviation": "MU"
+    },
+    {
+        "name": "Mexico",
+        "zhName": "墨西哥",
+        "abbreviation": "MX"
+    },
+    {
+        "name": "Micronesia (Federated States of)",
+        "zhName": "密克罗尼西亚联邦",
+        "abbreviation": "FM"
+    },
+    {
+        "name": "Monaco",
+        "zhName": " 摩纳哥 ",
+        "abbreviation": "MC"
+    },
+    {
+        "name": "Mongolia",
+        "zhName": "蒙古",
+        "abbreviation": "MN"
+    },
+    {
+        "name": "Montserrat",
+        "zhName": "蒙特塞拉特",
+        "abbreviation": "MS"
+    },
+    {
+        "name": "Morocco",
+        "zhName": "摩洛哥",
+        "abbreviation": "MA"
+    },
+    {
+        "name": "Mozambique",
+        "zhName": "莫桑比克",
+        "abbreviation": "MZ"
+    },
+    {
+        "name": "Namibia",
+        "zhName": "纳米比亚",
+        "abbreviation": "NA"
+    },
+    {
+        "name": "Nauru",
+        "zhName": "瑙鲁",
+        "abbreviation": "NR"
+    },
+    {
+        "name": "Netherlands (the)",
+        "zhName": "荷兰",
+        "abbreviation": "NL",
+        "isHot": true
+    },
+    {
+        "name": "New Caledonia",
+        "zhName": "新喀里多尼亚",
+        "abbreviation": "NC"
+    },
+    {
+        "name": "New Zealand",
+        "zhName": "新西兰",
+        "abbreviation": "NZ"
+    },
+    {
+        "name": "Nicaragua",
+        "zhName": "尼加拉瓜",
+        "abbreviation": "NI"
+    },
+    {
+        "name": "Niger (the)",
+        "zhName": "尼日尔",
+        "abbreviation": "NE"
+    },
+    {
+        "name": "Nigeria",
+        "zhName": "尼日利亚",
+        "abbreviation": "NG"
+    },
+    {
+        "name": "Niue",
+        "zhName": "纽埃岛",
+        "abbreviation": "NU"
+    },
+    {
+        "name": "Norfolk Island",
+        "zhName": "诺福克岛",
+        "abbreviation": "NF"
+    },
+    {
+        "name": "Northern Mariana Islands (the)",
+        "zhName": "北马里亚纳群岛",
+        "abbreviation": "MP"
+    },
+    {
+        "name": "Norway",
+        "zhName": "挪威",
+        "abbreviation": "NO"
+    },
+    {
+        "name": "Oman",
+        "zhName": "阿曼",
+        "abbreviation": "OM"
+    },
+    {
+        "name": "Pakistan",
+        "zhName": "巴基斯坦",
+        "abbreviation": "PK"
+    },
+    {
+        "name": "Palau",
+        "zhName": "帕劳共和国",
+        "abbreviation": "PW"
+    },
+    {
+        "name": "Palestine, State of",
+        "zhName": "巴勒斯坦",
+        "abbreviation": "PS"
+    },
+    {
+        "name": "Panama",
+        "zhName": "巴拿马",
+        "abbreviation": "PA"
+    },
+    {
+        "name": "Papua New Guinea",
+        "zhName": "巴布亚新几内亚",
+        "abbreviation": "PG"
+    },
+    {
+        "name": "Paraguay",
+        "zhName": "巴拉圭",
+        "abbreviation": "PY"
+    },
+    {
+        "name": "Peru",
+        "zhName": "秘鲁",
+        "abbreviation": "PE"
+    },
+    {
+        "name": "Philippines (the)",
+        "zhName": "菲律宾",
+        "abbreviation": "PH"
+    },
+    {
+        "name": "Poland",
+        "zhName": "波兰",
+        "abbreviation": "PL"
+    },
+    {
+        "name": "Portugal",
+        "zhName": "葡萄牙",
+        "abbreviation": "PT"
+    },
+    {
+        "name": "Puerto Rico",
+        "zhName": "波多黎各",
+        "abbreviation": "PR"
+    },
+    {
+        "name": "Qatar",
+        "zhName": "卡塔尔",
+        "abbreviation": "QA"
+    },
+    {
+        "name": "Réunion",
+        "zhName": "留尼汪",
+        "abbreviation": "RE"
+    },
+    {
+        "name": "Romania",
+        "zhName": "罗马尼亚",
+        "abbreviation": "RO"
+    },
+    {
+        "name": "Russian Federation (the)",
+        "zhName": "俄罗斯",
+        "abbreviation": "RU"
+    },
+    {
+        "name": "Rwanda",
+        "zhName": "卢旺达",
+        "abbreviation": "RW"
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "zhName": "圣其茨-尼维斯",
+        "abbreviation": "KN"
+    },
+    {
+        "name": "Saint Lucia",
+        "zhName": "圣卢西亚",
+        "abbreviation": "LC"
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "zhName": "圣文森特和格林纳斯丁",
+        "abbreviation": "VC"
+    },
+    {
+        "name": "Samoa",
+        "zhName": "萨摩亚",
+        "abbreviation": "WS"
+    },
+    {
+        "name": "San Marino",
+        "zhName": "圣马力诺",
+        "abbreviation": "SM"
+    },
+    {
+        "name": "Sao Tome and Principe",
+        "zhName": "圣多美和普林西比",
+        "abbreviation": "ST"
+    },
+    {
+        "name": "Saudi Arabia",
+        "zhName": "沙特阿拉伯",
+        "abbreviation": "SA"
+    },
+    {
+        "name": "Senegal",
+        "zhName": "塞内加尔",
+        "abbreviation": "SN"
+    },
+    {
+        "name": "Serbia",
+        "zhName": "塞尔维亚共和国",
+        "abbreviation": "RS"
+    },
+    {
+        "name": "Seychelles",
+        "zhName": "塞舌尔",
+        "abbreviation": "SC"
+    },
+    {
+        "name": "Sierra Leone",
+        "zhName": "塞拉利昂",
+        "abbreviation": "SL"
+    },
+    {
+        "name": "Singapore",
+        "zhName": "新加坡",
+        "abbreviation": "SG",
+        "isHot": true
+    },
+    {
+        "name": "Slovakia",
+        "zhName": "斯洛伐克",
+        "abbreviation": "SK"
+    },
+    {
+        "name": "Slovenia",
+        "zhName": "斯洛文尼亚",
+        "abbreviation": "SI"
+    },
+    {
+        "name": "Solomon Islands",
+        "zhName": "所罗门群岛",
+        "abbreviation": "SB"
+    },
+    {
+        "name": "South Africa",
+        "zhName": "南非",
+        "abbreviation": "ZA"
+    },
+    {
+        "name": "Spain",
+        "zhName": "西班牙",
+        "abbreviation": "ES",
+        "isHot": true
+    },
+    {
+        "name": "Sri Lanka",
+        "zhName": "斯里兰卡",
+        "abbreviation": "LK"
+    },
+    {
+        "name": "Suriname",
+        "zhName": "苏里南",
+        "abbreviation": "SR"
+    },
+    {
+        "name": "Swaziland",
+        "zhName": "斯威士兰",
+        "abbreviation": "SZ"
+    },
+    {
+        "name": "Sweden",
+        "zhName": "瑞典",
+        "abbreviation": "SE",
+        "isHot": true
+    },
+    {
+        "name": "Switzerland",
+        "zhName": "瑞士",
+        "abbreviation": "CH",
+        "isHot": true
+    },
+    {
+        "name": "Taiwan (Province of China)",
+        "zhName": "中国台湾",
+        "abbreviation": "TW"
+    },
+    {
+        "name": "Tajikistan",
+        "zhName": "塔吉克斯坦",
+        "abbreviation": "TJ"
+    },
+    {
+        "name": "Tanzania, United Republic of",
+        "zhName": "坦桑尼亚",
+        "abbreviation": "TZ"
+    },
+    {
+        "name": "Thailand",
+        "zhName": "泰国",
+        "abbreviation": "TH",
+        "isHot": true
+    },
+    {
+        "name": "Timor-Leste",
+        "zhName": "东帝汶民主共和国",
+        "abbreviation": "TL"
+    },
+    {
+        "name": "Togo",
+        "zhName": "多哥",
+        "abbreviation": "TG"
+    },
+    {
+        "name": "Tonga",
+        "zhName": "汤加",
+        "abbreviation": "TO"
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "zhName": "特立尼达和多巴哥",
+        "abbreviation": "TT"
+    },
+    {
+        "name": "Turkey",
+        "zhName": "土耳其",
+        "abbreviation": "TR"
+    },
+    {
+        "name": "Turkmenistan",
+        "zhName": "土库曼斯坦",
+        "abbreviation": "TM"
+    },
+    {
+        "name": "Turks and Caicos Islands (the)",
+        "zhName": "特克斯和凯科斯群岛",
+        "abbreviation": "TC"
+    },
+    {
+        "name": "Tuvalu",
+        "zhName": "图瓦卢",
+        "abbreviation": "TV"
+    },
+    {
+        "name": "Uganda",
+        "zhName": "乌干达",
+        "abbreviation": "UG"
+    },
+    {
+        "name": "United Arab Emirates (the)",
+        "zhName": "阿联酋",
+        "abbreviation": "AE"
+    },
+    {
+        "name": "United Kingdom of Great Britain and Northern Ireland (the)",
+        "zhName": "英国",
+        "abbreviation": "GB",
+        "isHot": true
+    },
+    {
+        "name": "United States of America (the)",
+        "zhName": "美国",
+        "abbreviation": "US",
+        "isHot": true
+    },
+    {
+        "name": "Uruguay",
+        "zhName": "乌拉圭",
+        "abbreviation": "UY"
+    },
+    {
+        "name": "Uzbekistan",
+        "zhName": "乌兹别克斯坦",
+        "abbreviation": "UZ"
+    },
+    {
+        "name": "Vanuatu",
+        "zhName": "瓦努阿图",
+        "abbreviation": "VU"
+    },
+    {
+        "name": "Viet Nam",
+        "zhName": "越南",
+        "abbreviation": "VN"
+    },
+    {
+        "name": "Virgin Islands (British)",
+        "zhName": "英属维尔京群岛",
+        "abbreviation": "VG"
+    },
+    {
+        "name": "Zambia",
+        "zhName": "赞比亚",
+        "abbreviation": "ZM"
+    }
+]

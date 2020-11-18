@@ -1,0 +1,132 @@
+@import '../fn.less';
+
+.vui-btn+.vui-btn {
+    margin-top: 15px;
+    // padding: 0
+}
+
+button {
+    border: 0;
+}
+
+.vui-vcode-btn {
+    display: inline-block;
+    height: 45px;
+    margin-left: 5px;
+    padding: 0 0.6em 0 0.7em;
+    border-left: 1px solid #E5E5E5;
+    line-height: 45px;
+    vertical-align: middle;
+    font-size: 28px;    /*px*/
+
+    color: #09BB07;
+    background-color: transparent;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    outline: 0;
+}
+
+.vui-btn {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    // padding-left: 14px*@px;
+    // padding-right: 14px*@px;
+    box-sizing: border-box;
+    font-size: 30px; /*px*/
+    text-align: center;
+    text-decoration: none;
+    background: @button_default_color;
+    line-height: 2.4;
+    border-radius: 2px; /*no*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    // overflow: hidden; 
+    color: white;
+
+    &::after {
+        .setBorder(@button_default_color);
+    }
+}
+.vui-btn{
+    &.vui-btn_pure {
+        background-color: white;
+        color: black;
+        &::after {
+            .setBorder(rgb(204, 201, 201));
+        }
+    }
+
+    &.vui-btn_radius_none {
+        border-radius: 0;
+        &::after {
+            border-radius: 0;
+        }
+    }
+
+    &.vui-btn_radius_min {
+
+        // background: red;
+        border-radius: @button_radius_min;/*no*/
+        &::after {
+            border-radius: @button_radius_min*2; /*no*/     
+        }
+    }
+
+
+    &.vui-btn_radius_middle {
+        border-radius: @button_radius_middle;/*no*/
+        &::after {
+            border-radius: @button_radius_middle*2;/*no*/
+            
+        }
+    }
+
+    &.vui-btn_radius_max {
+        border-radius: @button_radius_max; /*no*/
+        &::after {
+            border-radius: @button_radius_max*2; /*no*/ 
+        
+        }
+
+    }
+
+    &.vui-btn_primary {
+        background-color: @theme;
+        color: #FFFFFF;
+    }
+
+    &.vui-btn_error {
+        background-color: @button_error_color;
+        &::after {
+            border-color:  @button_error_color; 
+        }
+        color: #FFFFFF;
+    }
+
+    // .vui-btn_warn{
+    //     background-color:yellow; 
+    //     color: #FFFFFF;
+    // }
+    &.vui-btn_disabled {
+        opacity: .5;
+    }
+
+    &.vui-btn_middle {
+        display: inline-block;
+        position: relative;
+        padding: 5px 20px;
+        width:auto;
+        height: @button_middle_height;
+        line-height: @button_middle_height;
+    }
+    &.vui-btn_min{
+        display: inline-block; 
+        height: @button_min_height;
+        line-height: @button_min_height;
+        font-size: 10px;/*no*/     
+        width: auto;
+    }
+}

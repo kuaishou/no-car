@@ -1,0 +1,69 @@
+.vui-checkbox {
+  position: relative;
+  // background: red;
+  display: inline-block;
+
+  // width: @checkbox_size;
+  // height: @checkbox_size;
+  .vui-checkbox_lable{
+    padding-left: 8px*@px;
+  }
+  .vui-checkbox_ui {
+    vertical-align: middle;
+    display: inline-block;
+    // width: 100%;
+    // height: 100%;
+    width: @checkbox_size;
+    height: @checkbox_size;
+    // background: red;
+    box-sizing: border-box;
+    border: @checkbox_border solid @checkbox_color;
+    /*no*/
+    border-radius: @checkbox_radius;
+
+
+    // &::after{
+    //   background: red;
+    //   transform: rotate(45deg);
+    //   left: @checkbox_size / 2;
+    //   top: 10px;
+    //   height:  @checkbox_size /4 *3;
+    // }
+    //  &::after, &::before{
+    //    position: absolute;
+    //       content: ' *';
+    //       display: inline-block;
+    //       // transform-origin:bottom left;
+    //       border-radius: 5px;
+    //       width: 10px*@px;
+
+    //  }
+  }
+
+  .vui-checkbox_input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .vui-checkbox_input:checked+.vui-checkbox_ui {
+
+    // background: yellow;
+    &::before {
+      content: ' ';
+      width: @checkbox_size /5 * 3.5;
+      height: @checkbox_size /10 * 3;
+      border-left: @checkbox_border_within solid @checkbox_color;
+      border-bottom: @checkbox_border_within solid @checkbox_color;
+      position: absolute;
+      transform: rotate(-45deg);
+      transform-origin: bottom;
+      top: @checkbox_size / 4;
+      left: @checkbox_size / 4;
+      border-bottom-left-radius: @checkbox_border_within;
+    }
+  }
+}

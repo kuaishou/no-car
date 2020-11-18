@@ -1,0 +1,84 @@
+.tabs{
+    &-wrapper{
+        height: .96rem;
+        .tabs-nav{
+            position: relative;
+            display: flex;
+            height: .96rem;
+            background-color: #fff;
+            user-select: none;
+            &--fixed{
+                position: fixed;
+                top: 0;
+                width: 100%;
+                max-width: 720px;
+                z-index: 99;
+            }
+            &--placeholder{
+                height: .96rem;
+            }
+        }
+        .tabs-item{
+            position: relative;
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            color: #646566;
+            font-size: .28rem;
+            cursor: pointer;
+            transition: all .2s ease-out;
+            &--active{
+                // transform: scale(1.1);
+                color: #ee0a24;
+                font-weight: 600;
+            }
+        }
+    }
+   
+    &-line{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        height: .08rem;
+        background-color: #ee0a24;
+        transition: transform .3s ease-out;
+        border-radius: .04rem;
+    }
+
+    &-card{
+        height: 1.04rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        .tabs-nav{
+            position: relative;
+            line-height: .56rem;
+            border-radius: .08rem;
+            background:rgba(245,245,245,1);
+            padding: .08rem;
+            box-sizing: border-box;
+            text-align: center;
+            display: flex;
+        }
+        .tabs-item{
+            font-size: .28rem;
+            width: 1.56rem;
+            position: relative;
+            z-index: 2;
+            &--active{
+                color: #ee0a24;
+                font-weight: 600;
+            }
+        }
+        .tabs-line{
+            width: 1.56rem !important;
+            height: .56rem;
+            background: white;
+            bottom: .08rem;
+            border-radius: .08rem;
+        }
+    }
+}

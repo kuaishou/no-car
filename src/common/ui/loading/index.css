@@ -1,0 +1,58 @@
+.loading-wrap {
+    font-size: 15px; /*no*/
+
+}
+
+.loading-mask {
+    position: fixed;
+    z-index: 1000000000;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+.opacity_4 {
+    background: rgba(0, 0, 0, .4);
+}
+
+.opacity_6 {
+    background: rgba(0, 0, 0, .6);
+}
+
+.opacity_2 {
+    background: rgba(0, 0, 0, .2);
+}
+
+.opacity_8 {
+    background: rgba(0, 0, 0, .8);
+}
+
+.loading-box {
+    position: fixed;
+    z-index: 5000000000;
+    width: 110px;
+    /*no*/
+    min-height: 70px;
+    /*no*/
+    top: 180px;
+    /*no*/
+    left: 50%;
+   
+    margin-left: -55px; /*no*/
+    background: rgba(17, 17, 17, 0.7);
+    text-align: center;
+    border-radius: 5px; /*no*/
+
+    color: #FFFFFF;
+}
+
+.loading-img {
+    width: 40px; /*no*/
+    height: 70px; /*no*/
+}
+
+.loading-content {
+    margin: 15px 0 15px; /*no*/
+}

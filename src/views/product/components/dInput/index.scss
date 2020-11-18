@@ -1,0 +1,30 @@
+.dinput-wrap{
+    padding: 0 .32rem;
+    box-sizing: border-box;
+    background: white;
+    .dinput-box{
+        height: .96rem;
+        color: #666;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    label{
+        min-width: 2rem;
+        font-size: .28rem;
+        line-height: .4rem;
+    }
+    input{
+        flex: 1;
+        border: none;
+        outline: none;
+        color: #666;
+        font-size: .28rem;
+        line-height: .4rem;
+    }
+    .clear{
+        min-width: .5rem;
+        height: 100%;
+        background: url('./images/clear.png') no-repeat right center/.26rem;
+    }
+}

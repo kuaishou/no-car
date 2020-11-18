@@ -1,0 +1,18 @@
+{
+  "exclude": [
+    "**/index[a-zA-Z0-9].vue",
+    "**/index.*.vue",
+    "vui/components/cell/*.vue",
+    "vui/components/MSwitch/Index.vue",
+    "vui/components/EmptyPage/Index.vue",
+    "vui/components/Picker/index.vue",
+    "vui/components/PopupPicker/index.vue",
+    "vui/components/Alert/index.vue",
+    "vui/components/MDialog/index.vue",
+    "vui/components/MCheckBox/Index.vue",
+    "vui/components/MAddress/index.vue",
+    "vui/components/cell-swipe/index.vue",
+    "vui/components/DateTime/index.vue"
+  ],
+  "outDir": "docs"
+}

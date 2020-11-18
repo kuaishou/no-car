@@ -1,0 +1,62 @@
+.radio{
+    &-wrapper{
+        padding: .16rem 0;
+        background: white;
+    }
+    &-title{
+        line-height: .64rem;
+        font-size: .3rem;
+        display: flex;
+        justify-content: space-between;
+        .info{
+            color: #999;
+            font-size: .24rem;
+            font-weight: 400;
+        }
+        .left{
+            display: flex;
+            align-items: center;
+        }
+        .doubt{
+            width: .38rem;
+            height: .38rem;
+            background: url('./images/doubt.png') no-repeat center/.38rem;
+            margin-left: .05rem;
+        }
+    }
+    &-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &-item{
+        width: 49%;
+        line-height: .7rem;
+        color: #666;
+        background: #F7F7F7;
+        border-radius: .12rem;
+        list-style: none;
+        font-size: .28rem;
+        margin-top: .16rem;
+        padding: 0 .32rem;
+        box-sizing: border-box;
+        &--active{
+            color: #F60C3F;
+            background: #FFF2F5;
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                right: .24rem;
+                top: 50%;
+                transform: translateY(-50%);
+                width: .48rem;
+                height: .48rem;
+                background: url('./images/checked.png') no-repeat center/.48rem;
+            }
+        }
+        &--long{
+            width: 100%;
+        }
+    }
+}

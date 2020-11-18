@@ -1,0 +1,99 @@
+*,
+*:before,
+*:after {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+input:password {
+  ime-mode: disabled;
+}
+
+/* A11Y：移除了 outline 样式，注意设置其他 :focus 样式，方便残障人士识别焦点 */
+*:focus {
+  outline: none;
+}
+
+#app,body,html {
+  height: 100%
+}
+body, html {
+  line-height: 1;
+  font-family: PingFang SC,STHeitiSC-Light,Helvetica-Light,arial,sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.vui-content,
+.vui-page {
+  position: absolute;
+  top: @nav_height*@px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  // overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.page__bd_spacing {
+padding: 0 15px;
+}
+.vui-content{
+  // background: red!important;
+}

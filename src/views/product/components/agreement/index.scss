@@ -1,0 +1,114 @@
+.agreement-wrap{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: white;
+    z-index: 2021;
+    .agreement-header{
+        line-height: .96rem;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        .agreement-title{
+           font-size: .32rem;
+        }
+        .agreement-close{
+            position: absolute;
+            min-width: .96rem;
+            height: .96rem;
+            right: 0;
+            &:before, &:after{
+                content: '';
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                width: .04rem;
+                height: .4rem;
+                background: #333;
+                border-radius: .02rem;
+            }
+            &:before{
+                transform: translate(-50%, -50%) rotate(45deg);
+            }
+            &:after{
+                transform: translate(-50%, -50%) rotate(-45deg);
+            }
+        }
+    }
+    .agreement-content{
+        overflow: auto;
+        position: absolute;
+        top: .96rem;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -webkit-overflow-scrolling: touch;
+        .padding{
+            padding: .32rem;
+        }
+        >>> img {
+            width: 100%;
+        }
+        &--footer{
+            bottom: 1.68rem;
+        }
+    }
+    .agreement-footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        box-shadow: 0 -1px 1px hsla(0,29%,71%,.1);
+        &__checked{
+            padding: .2rem;
+            color: #666;
+            display: flex;
+            align-items: center;
+            .icon-checkbox{
+                display: inline-block;
+                width: .32rem;
+                height: .32rem;
+                background: url('../footerButton/images/checkbox-off.png') no-repeat center/.32rem;
+                margin-right: .1rem;
+                transition: background-image .3s;
+                &.checked{
+                    background-image: url('../footerButton/images/checkbox-on.png');
+                }
+            }
+        }
+        &__btn{
+            display: flex;
+            span{
+                flex: 1;
+                line-height: .9rem;
+                text-align: center;
+                color: #f60c3f;
+                font-size: .28rem;
+                height: .9rem;
+                line-height: .9rem;
+                &.confirm{
+                    background: #f60c3f;
+                    color: white;
+                }
+                &.disabled{
+                    opacity: .5;
+                }
+                i{
+                    font-style: normal;
+                }
+            }
+        }
+    }
+}
+
+.fadeUp-enter, .fadeUp-leave-to{
+    transform: translate3d(0,100%,0);
+}
+.fadeUp-enter-active, .fadeUp-leave-active{
+    transition: all .1s ease;
+}

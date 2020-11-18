@@ -1,0 +1,9 @@
+{
+    "name": "lvue",
+    "version": "0.1.0",
+    "main": "index.js",
+    "private": true,
+    "peerDependencies": {
+        "vant": "^2.6.2"
+    }
+}

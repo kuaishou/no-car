@@ -1,0 +1,100 @@
+.channel-billing{
+    padding: 16px;
+    background: white;
+    margin-bottom: .2rem;
+    .channel-title{
+        display: flex;
+        line-height: .64rem;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            font-size: .3rem;
+        }
+        .switch-wrap{
+            display: flex;
+            align-items: center;
+            width: .64rem;
+            height: .2rem;
+            position: relative;
+            .switch-bg{
+                background: #F7F7F7;
+                display: block;
+                height: .2rem;
+                border-radius: .16rem;
+                width: 100%;
+            }
+            .switch-bar{
+                background: #446BE5;
+                border: .04rem solid white;
+                position: absolute;
+                top: -.08rem;
+                left: 0;
+                width: .28rem;
+                height: .28rem;
+                border-radius: 100%;
+                transition: transform .3s;
+                transform: translate3d(0,0,0);
+            }
+            &.checked{
+                .switch-bg{
+                    background: rgb(255, 232, 237);
+                    border-color: rgb(252, 237, 241);
+                }
+                .switch-bar{
+                    background: #F60C3F;
+                    transform: translate3d(.3rem,0,0);
+                }
+            }
+        }
+    }
+    .channel-content{
+        &__select{
+            display: flex;
+            line-height: .96rem;
+            color: #666;
+            font-size: .28rem;
+            justify-content: space-between;
+        }
+        &__text{
+            position: relative;
+            padding-right: .44rem;
+            &::after{
+                content: '';
+                position: absolute;
+                top: 50%;
+                right: 0;
+                width: .28rem;
+                height: .28rem;
+                transform: translateY(-50%);
+                background: url('../../images/arrow-down.png') no-repeat right center/.32rem .32rem;
+            }
+        }
+        .channel-content__select {
+            .channel-content__text {
+                width: 4rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+    .channel-share{
+        width: 100%;
+        height: .64rem;
+        margin: .16rem auto;
+        color: #F60C3F;
+        font-size: .28rem;
+        background:rgba(247,247,247,1);
+        border-radius:.12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &::after{
+            content: '';
+            margin-left: .14rem;
+            width: .3rem;
+            height: .3rem;
+            background: url('../../images/icon-share.png') no-repeat center center/.3rem .3rem;
+        }
+    }
+}

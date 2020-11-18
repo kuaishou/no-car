@@ -1,0 +1,92 @@
+.renewal-wrapper{
+    padding: .32rem;
+    font-size: .28rem;
+    margin-bottom: .2rem;
+    background: white;
+}
+.renewal-title{
+    display: flex;
+    line-height: .64rem;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        font-size: .3rem;
+        .icon-recomd{
+            display: inline-block;
+            width: .96rem;
+            height: .32rem;
+            margin: 0 0 -.05rem .16rem;
+            background: url('./images/recommend.png') no-repeat center/.96rem;
+        }
+    }
+    .switch-wrap{
+        display: flex;
+        align-items: center;
+        width: .64rem;
+        height: .2rem;
+        position: relative;
+        .switch-bg{
+            background: #F5F5F5;
+            display: block;
+            height: .2rem;
+            border-radius: .16rem;
+            width: 100%;
+        }
+        .switch-bar{
+            background: #999;
+            border: .04rem solid white;
+            position: absolute;
+            top: -.08rem;
+            left: 0;
+            width: .28rem;
+            height: .28rem;
+            border-radius: 100%;
+            transition: transform .3s;
+            transform: translate3d(0,0,0);
+        }
+        &.checked{
+            .switch-bg{
+                background: rgb(255, 232, 237);
+                border-color: rgb(252, 237, 241);
+            }
+            .switch-bar{
+                background: #F60C3F;
+                transform: translate3d(.3rem,0,0);
+            }
+        }
+    }
+}
+.renewal-info{
+    height: 2.56rem;
+    background: url('./images/renewal-bg1.png') no-repeat center/100%;
+    margin: .16rem 0;
+    padding: .24rem .32rem 0;
+    p{
+        color: #179BFE;
+        font-size: .24rem;
+        position: relative;
+        line-height: .4rem;
+        padding-left: .2rem;
+        margin-bottom: .24rem;
+        &:before{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: .08rem;
+            height: .08rem;
+            border-radius: 100%;
+            background: #179BFE;
+        }
+    }
+}
+.renewal-tips{
+    width: 6.86rem;
+    height: .88rem;
+    line-height: .88rem;
+    color: #BA452B;
+    text-align: center;
+    background: url('./images/renewal-bg2.png') no-repeat center/100%;
+    font-size: .24rem;
+}

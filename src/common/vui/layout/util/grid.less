@@ -1,0 +1,53 @@
+@import '../fn.less';
+.vui-grid {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    //  flex-direction: column;
+    text-align: center;
+    // justify-tests: center;
+    // font-size: 0;
+    // justify-content: space-around;
+    font-size: 28px; /*px*/
+    .vui-grid_item {
+        
+        // background: black;
+        position: relative;
+        width: 33.33333%;
+        // flex: 1;
+        height: 200px;
+        .vui-grid_icon{
+            // display: none;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 80px;
+            // height: 80px;
+            box-sizing: border-box;
+            // height: 50px;
+        }
+      
+        &::after {
+            // .setBorder(#CCCCCC);
+            .setRightBottomLine(#CCCCCC);
+        }
+      
+    } 
+     &::after{
+     .setTopLine(#CCCCCC);
+     }
+}
+.vui-grid_4{
+    .vui-grid;
+    .vui-grid_item {
+        width: 25%!important;
+    }
+    
+}
+.vui-grid_auto{
+    .vui-grid;
+    .vui-grid_item {
+       flex: 1;
+    }
+    
+}

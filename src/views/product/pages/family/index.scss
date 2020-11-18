@@ -1,0 +1,207 @@
+.family-wrapper {
+  height: 100%;
+  overflow: hidden;
+  .family-detail {
+    background: white;
+    margin-top: .16rem;
+    margin-bottom: .2rem;
+    padding: .32rem;
+    .img-item {
+      width: 100%;
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    .family-title {
+      color: #333333;
+      font-size: .4rem;
+      line-height: .54rem;
+      text-align: center;
+      font-weight: 600;
+      &.title1 {
+        padding: .78rem 0 .16rem;
+      }
+    }
+    .family-desc {
+      font-size: .28rem;
+      color: #666666;
+      line-height: .4rem;
+      text-align: center;
+      &.pdb32 {
+        padding-bottom: .32rem;
+      }
+      &.pdb28 {
+        padding-bottom: .28rem;
+      }
+    }
+  }
+  .family-card {
+    background: white;
+    padding: .16rem .32rem;
+    margin-bottom: .2rem;
+    .family-cell{
+      padding: .16rem 0;
+    }
+    .title-wrap {
+      display: flex;
+      line-height: .64rem; 
+      justify-content: space-between;
+      align-items: center;
+      h2 {
+        font-size: .3rem;
+      }
+      span {
+        color: #999;
+      }
+    }
+    .family-question{
+      .family-question__item{
+        padding: 0 0 .2rem .4rem;
+        margin-top: .16rem;
+        font-size: .24rem;
+        color: #666;
+        position: relative;
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: .03rem;
+          width: .32rem;
+          height: .32rem;
+          background: url('../../images/question.png') no-repeat center/.32rem;
+        }
+        .family-question__title {
+          font-weight: 600;
+          line-height: .34rem;
+        }
+        .family-question__text {
+          line-height: .4rem;
+        }
+        &:last-child{
+          padding-bottom: 0;
+        }
+      }
+    }
+    .family-service__list{
+      display: flex;
+      justify-content: space-between;
+      padding: .16rem 0 .32rem;
+      img{
+        width: 6.86rem;
+        height: 1.6rem;
+      }
+    }
+    .family-service__text{
+      height: .8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #666;
+      font-size: .24rem;
+      .text-link{
+        font-size: .24rem;
+        color: #446be5;
+      }
+    }
+    .family-insure{
+      padding: .16rem 0;
+      &__input{
+          margin: 0 -.32rem;
+      }
+    }
+  }
+  .iconList {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: .1rem;
+    .icon-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: .85rem;
+      height: 100%;
+      img {
+        width: .48rem;
+        height: .48rem;
+      }
+      span {
+        color: #888888;
+        font-size: .24rem;
+      }
+    }
+  }
+
+  .money{
+    flex: 1;
+    color: #999;
+    font-size: .24rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: .24rem;
+    .highlight{
+      color: #F60C3F;
+      font-size: .32rem;
+      font-weight: 600;
+      text-indent: -.6rem;
+    }
+    .zkbs{
+      &::before{
+        content: '尊享价';
+        margin: 0 .1rem 0 0;
+        padding: 0 .1rem;
+        color:  #ff3f61;
+        border: .02rem solid  #ff3f61;
+        border-radius: .04rem;
+      }
+      &.left{
+        &::before{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  .moneyList-box {
+    overflow-x: hidden;
+    padding-bottom: .16rem;
+    .box-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #333;
+      font-weight: 600;
+      line-height: .64rem;
+      background-color: #fff;
+      padding: 0 .48rem;
+    }
+    .box-list {
+      transition: all .3s;
+      &.change {
+        transform: translate3d(-100vw, 0, 0);
+      }
+      .box-list2 {
+        display: flex;
+        flex-wrap: nowrap;
+        .tabs-list {
+          background-color: #fff;
+          .list-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 .48rem;
+            width: 100vw;
+            box-sizing: border-box;
+            line-height: .64rem;
+            font-size: .28rem;
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+}

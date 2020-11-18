@@ -1,0 +1,26 @@
+{
+    "name": "member-module",
+    "version": "0.1.0",
+    "main": "dist/index.es.js",
+    "module": "dist/index.es.js",
+    "unpkg": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "node ./rollup.config.js"
+    },
+    "dependencies": {
+        "rollup": "^1.27.0",
+        "rollup-plugin-buble": "^0.19.8",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-typescript2": "^0.25.2",
+        "rollup-plugin-uglify": "^6.0.0",
+        "typescript": "^3.7.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3"
+    }
+}
