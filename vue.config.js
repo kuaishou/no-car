@@ -1,4 +1,5 @@
 const merge = require("webpack-merge");
+const tsImportPluginFactory = require("ts-import-plugin");
 let baseUrl = '/eb-web/vue/noCar';
 
 
@@ -17,6 +18,15 @@ module.exports = {
       .tap(options => {
         options = merge(options, {
           transpileOnly: true,
+          getCustomTransformers: () => ({
+            before: [
+              tsImportPluginFactory({
+                libraryName: "vant",
+                libraryDirectory: "es",
+                style: true
+              })
+            ]
+          }),
           compilerOptions: {
             module: "es2015"
           }
