@@ -29,10 +29,15 @@ export const getToken = (data:any, params:any) => {
  *  cardPwd:激活密码
 *   valCde: 激活验证码
  */
-export const getProductInfo = (data:any, params:any) => {
+
+ 
+export const getProductInfo = (data:any) => {
     data = Object.assign({}, data)
-    params = Object.assign({}, params)
-    return post(`${baseUrl}/micro-plat/commonData/getProductInfo`, data, params)
+    return post(`${baseUrl}/micro-plat/commonData/productInfo.do`, data, {
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded; charset=utf-8;"
+        }
+      })
 }
 /**
  * @params //提交投被保人信息
